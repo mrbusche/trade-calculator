@@ -1,1 +1,1 @@
-# trade-calculator
+# Dynasty Trade Calculator
