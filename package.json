@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "cypress": "12.15.0"
+    "cypress": "12.16.0"
   }
 }
