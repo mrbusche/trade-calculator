@@ -1,58 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="language" content="english" />
-    <meta http-equiv="content-type" content="text/html" />
-    <meta name="author" content="Matt Busche" />
-    <meta
-      name="description"
-      content="Fantasy Football Dynasty Trade Calculator"
-    />
-    <meta
-      name="keywords"
-      content="Fantasy football,Dynasty trade calculator,Dynasty football,dynasty trade value,trade value"
-    />
-    <meta name="robots" content="index,follow,noodp" />
-    <title>Fantasy Football Dynasty Trade Calculator</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0CF3FQ1QLW"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-0CF3FQ1QLW');
-    </script>
-  </head>
-  <body>
-    <h1>Dynasty Trade Calculator</h1>
-    <h2 id="winner" class="red">Please choose players for each team.</h2>
-    <div class="container">
-      <div class="teamOne">
-        <label for="teamOneInput">
-          <h2>Team One</h2>
-          <input id="teamOneInput" list="teamOne" autofocus />
-        </label>
-        <h3>Total: <span id="teamOneTotal"></span></h3>
-        <datalist id="teamOne"></datalist>
-        <div id="teamOnePlayers"></div>
-      </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="language" content="english" />
+  <meta http-equiv="content-type" content="text/html" />
+  <meta name="author" content="Matt Busche" />
+  <meta name="description" content="Fantasy Football Dynasty Trade Calculator" />
+  <meta name="keywords"
+    content="Fantasy football,Dynasty trade calculator,Dynasty football,dynasty trade value,trade value" />
+  <meta name="robots" content="index,follow,noodp" />
+  <title>Fantasy Football Dynasty Trade Calculator</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0CF3FQ1QLW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-      <div class="teamTwo">
-        <label for="teamTwoInput">
-          <h2>Team Two</h2>
-          <input id="teamTwoInput" list="teamTwo" />
-        </label>
-        <h3>Total: <span id="teamTwoTotal"></span></h3>
-        <datalist id="teamTwo"></datalist>
-        <div id="teamTwoPlayers"></div>
-      </div>
+    gtag('config', 'G-0CF3FQ1QLW');
+  </script>
+</head>
+
+<body>
+  <h1>Dynasty Trade Calculator</h1>
+  <h2 id="winner" class="red">Please choose players for each team.</h2>
+  <div class="container">
+    <div class="teamOne">
+      <label for="teamOneInput">
+        <h2>Team One</h2>
+        <input id="teamOneInput" list="teamOne" autofocus />
+      </label>
+      <h3>Total: <span id="teamOneTotal"></span></h3>
+      <datalist id="teamOne"></datalist>
+      <div id="teamOnePlayers"></div>
     </div>
-    <h4 id="url"></h4>
-    <button id="reset" class="btn">Start over</button>
-    <h5>Last updated: 5/31/2023</h5>
-    <script src="js/trade.js"></script>
-  </body>
+
+    <div class="teamTwo">
+      <label for="teamTwoInput">
+        <h2>Team Two</h2>
+        <input id="teamTwoInput" list="teamTwo" />
+      </label>
+      <h3>Total: <span id="teamTwoTotal"></span></h3>
+      <datalist id="teamTwo"></datalist>
+      <div id="teamTwoPlayers"></div>
+    </div>
+  </div>
+  <h4 id="url"></h4>
+  <button id="reset" class="btn">Start over</button>
+  <h5>Last updated: 7/4/2023</h5>
+  <script src="js/trade.js"></script>
+</body>
+
 </html>
