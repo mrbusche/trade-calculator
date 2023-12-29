@@ -1,6 +1,6 @@
 describe('check trade calc', () => {
     it('check homepage', () => {
-        cy.visit('https://dynastytradecalc.com');
+        cy.visit('https://dynasty-trade-calculator.netlify.app/');
         cy.get('h1').should('have.text', 'Dynasty Trade Calculator');
         cy.get('#winner').should('have.text', 'Please choose players for each team.');
 
